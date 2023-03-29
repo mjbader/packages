@@ -191,6 +191,8 @@ NSString *const errorMethod = @"error";
     connection.videoMirrored = YES;
   }
 
+  connection.preferredVideoStabilizationMode = AVCaptureVideoStabilizationModeStandard;
+
   return connection;
 }
 
